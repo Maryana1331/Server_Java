@@ -12,7 +12,7 @@ spring.liquibase.change-log=classpath:/db/migration/changelog/db.changelog-maste
 spring.jpa.properties.hibernate.format_sql=**
 
 server.servlet.context-path=/api/v1
-secret.key ="5d87d5c92266155ecfcff875faed1ed843d5399af10bf51275d02c3409124chudeertfcdserfscd"
+secret.key =**
 file.path =/src/main/resources/files/
 baseUrl.UploadFile =http://localhost:8080/api/v1/file/
 
