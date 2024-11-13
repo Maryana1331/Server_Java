@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+    https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="V001" author="maryana1233">
+        <sqlFile path="db/migration/changelog/V001_create_users_table.sql"/>
+    </changeSet>
+
+    <changeSet id="V002" author="maryana1233">
+        <sqlFile path="db/migration/changelog/V002_create_news_table.sql"/>
+    </changeSet>
+
+    <changeSet id="V003" author="maryana1233">
+        <sqlFile path="db/migration/changelog/V003_create_tag_table.sql"/>
+    </changeSet>
+
+    <changeSet id="V004" author="maryana1233">
+        <sqlFile path="db/migration/changelog/V004_create_news_tag_table.sql"/>
+    </changeSet>
+
+    <changeSet id="V005" author="maryana1233">
+        <sqlFile path="db/migration/changelog/V005_create_log_table.sql"/>
+    </changeSet>
+
+</databaseChangeLog>
